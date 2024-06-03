@@ -85,3 +85,39 @@ This command will display the path to the currently active shell on your system.
 
     Once your .zshrc file is open, paste the contents you copied from the repository's .zshrc file into it.
 
+<br><br><br><br>
+
+
+# Color Picker Configuration
+
+### Default Colors
+
+<div style="display: flex; align-items: center;">
+    <label for="bgColor" style="width: 250px;">Default Background: <code>#191B21</code></label>
+    <input type="color" id="bgColor" name="bgColor" value="#191B21" style="margin-right: 20px;">
+</div>
+
+<div style="display: flex; align-items: center;">
+    <label for="textColor" style="width: 250px;">Default Text: <code>#9BA4BA</code></label>
+    <input type="color" id="textColor" name="textColor" value="#9BA4BA" style="margin-right: 20px;">
+</div>
+
+<div style="display: flex; align-items: center;">
+    <label for="boldColor" style="width: 250px;">Bold Color: <code>#6AEF60</code></label>
+    <input type="color" id="boldColor" name="boldColor" value="#6AEF60" style="margin-right: 20px;">
+</div>
+
+<div style="display: flex; align-items: center;">
+    <label for="highlightText" style="width: 250px;">Highlight Text: <code>#F4E227</code></label>
+    <input type="color" id="highlightText" name="highlightText" value="#F4E227" style="margin-right: 20px;">
+</div>
+
+<div style="display: flex; align-items: center;">
+    <label for="highlightBg" style="width: 250px;">Highlight Background: <code>#000000</code></label>
+    <input type="color" id="highlightBg" name="highlightBg" value="#000000" style="margin-right: 20px;">
+</div>
+
+<div style="display: flex; align-items: center;">
+    <label for="folderColor" style="width: 250px;">Folder Color (Color Palette): <code>#547EDC</code></label>
+    <input type="color" id="folderColor" name="folderColor" value="#547EDC" style="margin-right: 20px;">
+</div>
